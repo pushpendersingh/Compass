@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapping Interviews!</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href='css/common.css' type="text/css" rel='stylesheet' />
+<script src='js/jquery.js'></script>
+<script src='js/jquery.transit.js'></script>
+<script src="js/homepage.js"></script>
+
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+<nav class="navbar navbar-default navbar-fixed-top menu-bar"
+	role="navigation">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-1 col-md-4 ">
+				<ul class="nav nav-pills "
+					style="float: right; padding: 11px; padding-top: 8px;">
+					<li><a class="" href="">HOME</a></li>
+					<li><a href="">ABOUT</a></li>
+					<li><a href="discover.htm">DISCOVER</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2" style="padding-right: 0px;">
+				<img src="img/g54.png" style="width: 150px; padding: 0px 45px;" />
+			</div>
+			<div class="col-md-4" style="padding-left: 0px;"">
+				<ul class="nav nav-pills "
+					style="padding-left: 0px; float: left; padding: 11px; padding-top: 8px;">
+					<li><a href="">CREATE AND "PLACE"</a></li>
+					<li><a href="">LOG IN</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+</nav>
+</head>
+<body>
+
+	<section id="home-section">
+		<div class="row">
+			<div class="col-md-6 home-left">
+				<h1>UNRAVEL</h1>
+				<h1>YOUR PAST</h1>
+				<p style="padding-right: 28%;">To be rooted is perhaps the most
+					important and least recognised need of the human soul</p>
+			</div>
+			<div class="col-md-6 home-right">
+				<div class="row">
+					<div class="col-md-offset-4 col-md-2 first-box" id="first-box">CREATE</div>
+					<img src="img/line.png"
+						style="position: relative; left: -160px; bottom: -90px; opacity: .7;" />
+				</div>
+				<div class="row">
+					<div class="col-md-1 root-box glyphicon glyphicon-chevron-up" id="root-box"></div>
+					<div class="col-md-1 third-box" id="third-box">ABOUT</div>
+					<img src="img/line2.png"
+						style="position: relative; left: -278px; bottom: -137px; opacity: .7;" />
+
+					<div class=" col-md-2 second-box" id="second-box"><a href="discover.htm">DISCOVER</a></div>
+					<img src="img/line1.png"
+						style="position: relative; left: -268px; opacity: .7; top: 73px;" />
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+
+	<script>
+		$("#root-box").mouseover(function() {
+			$(this).transition({
+				scale : 1.1,
+				duration : 100
+			});
+
+		});
+		$("#root-box").mouseout(function() {
+			$(this).transition({
+				scale : 1,
+				duration : 2
+			});
+		});
+
+		$("#first-box").mouseover(function() {
+			$(this).transition({
+				scale : 1.1,
+				duration : 100
+			});
+			$('').css({
+				transformOrigin : '10px 10px'
+			}).transition({
+				rotate : '90deg'
+			});
+
+		});
+		$("#first-box").mouseout(function() {
+			$(this).transition({
+				scale : 1,
+				duration : 2
+			});
+		});
+
+		$("#second-box").mouseover(function() {
+			$(this).transition({
+				scale : 1.1,
+				duration : 100
+			});
+
+		});
+		$("#second-box").mouseout(function() {
+			$(this).transition({
+				scale : 1,
+				duration : 2
+			});
+		});
+
+		$("#third-box").mouseover(function() {
+			$(this).transition({
+				scale : 1.1,
+				duration : 100
+			});
+
+		});
+		$("#third-box").mouseout(function() {
+			$(this).transition({
+				scale : 1,
+				duration : 2
+			});
+		});
+	</script>
+
+
+</body>
+<footer id="footer fixed-footer">
+	<div class="container ">
+		<div class="footer-container">
+			<div class="col-md-2">
+				<p>© 2014</p>
+			</div>
+			<div class="col-md-3 col-md-offset-3">
+				<p class="pull-right"></p>
+			</div>
+			<div class="col-md-3">
+				<p class="pull-right">CONTACT US</p>
+			</div>
+		</div>
+	</div>
+
+</footer>
+</html>

@@ -1,0 +1,257 @@
+@font-face {	font-family: Gill Sans Light;		src: url(GillSansMTPro-Light.otf);		font-weight:700;}h1,h2,h3,h4,h5,h6 {	font-family: Gill Sans Light;	font-weight:700;}p,div {	font-family: Gill Sans Light;	font-weight:700;}.story-desc-pop {	font-size: 13px;	font-family: Gill Sans Light;}body {
+	margin: 0;
+	padding: 0;
+}
+
+#map {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.title {
+	text-align: center;
+	font-weight: 500;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+
+.image {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.popup {
+	
+}
+
+.popup  img {
+	width: 100%;
+}
+
+#story-box {
+	position: absolute;
+	background: #FFF;
+	top: 0px;
+	bottom: 0px;
+	right: 0;
+	opacity: 0.8;
+	display: none;
+	padding: 20px;
+	padding-right: 30px; padding-left : 10px;
+	width: 400px;
+	-webkit-box-shadow: 0px 0px 89px 63px rgba(255, 255, 255, 1);
+	-moz-box-shadow: 0px 0px 89px 63px rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 89px 63px rgba(255, 255, 255, 1);
+	padding-left: 10px;
+}
+
+.story {
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+}
+
+p,.popup {
+	text-align: center;
+}
+
+.popup .slideshow .image,.popup .slideshow .active,.popup .slideshow .caption
+	{
+	display: inline;
+}
+
+.menu-tab {
+	line-height: 50px;
+}
+
+.menu-bar {
+	background: white;
+	padding: 7px;
+}
+
+#home-section {
+	margin-top: 0px;
+	background: url("../img/worldmap.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.home-left {
+	font-family: Gill Sans Light;
+	padding-top: 30%;
+	padding-left: 12%;
+	color: white;
+	opacity: 0.7;
+	padding-bottom: 0%;
+}
+
+.home-left h1 {
+	font-size: 62.5px;
+	line-height: 58px;
+}
+
+.home-right {
+	padding-top: 13%;
+	padding-left: 0%;
+}
+
+.root-box {
+	background-color: white;
+	margin-top: 5%;
+	width: 100px;
+	height: 100px;
+	opacity: 0.6;
+	border-radius: 50%;
+	line-height: 100px;
+	text-align: center;
+}
+
+.first-box {
+	background-color: white;
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	margin-left: 160px;
+	opacity: 0.6;
+	line-height: 111px;
+	text-align: center;
+}
+
+.second-box {
+	background-color: white;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin-left: 16px;
+	opacity: 0.6;
+	line-height: 120px;
+	text-align: center;
+	margin-top: 49px;
+	cursor: pointer; } .third-box {
+	background-color: white;
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	margin-left: 5px;
+	opacity: 0.6;
+	line-height: 110px;
+	text-align: center;
+	margin-top: 188px;
+	cursor: pointer;
+}
+
+}
+
+
+.more-btn {
+	margin-top: 5px;
+}
+
+.story-image {
+	padding-left: 2%;
+	padding-bottom: 5px;
+	width: 94%;
+}
+
+.tag-box {
+	position: absolute;
+	background-color: white;
+	top: 173px;
+	bottom: 171px;
+	left: 0;
+	opacity: .8;
+	width: 178px;
+	padding-top: 36px;
+	padding-right: 11px;
+	padding-bottom: 36px;
+}
+
+.green-tag-static {
+	background-color: #c5e96f;
+	height: 50px;
+}
+
+.green-tag-dynamic {
+	background-color: #c5e96f;
+	height: 50px;
+}
+
+.progresslabelgreen {
+	font-family: Gill Sans Light;
+	position: relative;
+	left: 37px;
+	font-size: 16px;
+	top: -36px;
+	cursor: pointer;
+}
+
+.blue-tag-static {
+	background-color: #1087bf;
+	height: 50px;
+}
+
+.blue-tag-dynamic {
+	background-color: #1087bf;
+	height: 50px;
+}
+
+.progresslabelblue {
+	font-family: Gill Sans Light;
+	position: relative;
+	left: 37px;
+	font-size: 16px;
+	top: -36px;
+	cursor: pointer;
+}
+
+.red-tag-static {
+	background-color: #f86767;
+	height: 50px;
+}
+
+.red-tag-dynamic {
+	background-color: #f86767;
+	height: 50px;
+}
+
+.progresslabelred {
+	font-family: Gill Sans Light;
+	position: relative;
+	left: 37px;
+	font-size: 16px;
+	top: -36px;
+	cursor: pointer;
+}
+
+.yellow-tag-static {
+	background-color: #EAFF55;
+	height: 50px;
+}
+
+.yellow-tag-dynamic {
+	background-color: #EAFF55;
+	height: 50px;
+}
+
+.progresslabelyellow {
+	font-family: Gill Sans Light;
+	position: relative;
+	left: 37px;
+	font-size: 16px;
+	top: -36px;
+	cursor: pointer;
+}
+
+.nav-pills>li>a {
+	border-radius: 4px;
+	font-size: 17px !important;
+}
+
+.footer-container {
+	padding-top: 15px;
+}
